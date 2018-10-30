@@ -1,6 +1,6 @@
-### Twitter user profile word frequencies
+### Twitter user profile word, bigram and trigram frequencies
 
-A CSV file of 50,000 word frequencies, rankings and inverse document frequencies sourced from 2,688,101 English language Twitter user profiles.
+A CSV file of 50,000 word/bigram/trigram frequencies, rankings and inverse document frequencies sourced from 2,688,101 English language Twitter user profiles.
 
 Motivation: To assist with extracting interesting features from Twitter user profiles.
 
