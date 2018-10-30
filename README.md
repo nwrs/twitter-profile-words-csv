@@ -4,7 +4,7 @@ A CSV file of word frequencies, rankings and inverse document frequencies source
 
 Motivation: To assist with extracting interesting features from Twitter user profiles.
 
-Loading with Spark:
+#### Loading with Spark
 ```
 val sc = SparkSession.builder().master("local[*]").getOrCreate()
 sc.sparkContext.setLogLevel("ERROR")
