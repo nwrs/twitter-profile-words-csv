@@ -7,8 +7,8 @@ Motivation: To assist with extracting interesting features from Twitter user pro
 #### Loading with Spark
 ```
 val sc = SparkSession.builder().master("local[*]").getOrCreate()
-sc.sparkContext.setLogLevel("ERROR")
-sc.read.option("header","true").csv("twitter-profiles-word-frequency.csv").show(25, truncate=false)
+val freq = sc.read.option("header","true").csv("twitter-profiles-word-frequency.csv")
+freq.show(25, truncate=false)
  
 +----+-------+------------------+----+
 |word|rawFreq|invDocFreq        |rank|
